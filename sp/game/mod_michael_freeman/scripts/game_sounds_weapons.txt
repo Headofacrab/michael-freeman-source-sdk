@@ -1436,6 +1436,16 @@
 	"wave"			"weapons/smg1/switch_burst.wav"
 }
 
+"Weapon_SMG1.Special3"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,105"
+
+	"wave"			"weapons/smg1/smg1_fireburst2.wav"
+}
+
 "Weapon_SMG1.Burst"
 {
 	"channel"		"CHAN_WEAPON"
