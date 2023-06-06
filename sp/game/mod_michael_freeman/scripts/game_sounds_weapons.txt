@@ -1224,6 +1224,8 @@
 		"wave"			"weapons/shotgun/shotgun_reload1.wav"
 		"wave"			"weapons/shotgun/shotgun_reload2.wav"
 		"wave"			"weapons/shotgun/shotgun_reload3.wav"
+		"wave"			"weapons/Hk_m3/m3_insertshell.wav"
+
 	}
 }
 
@@ -1234,6 +1236,7 @@
 	"soundlevel"	"SNDLVL_NORM"
 
 	"wave"		"weapons/shotgun/shotgun_cock.wav"
+	"wave"		"weapons/Hk_m3/m3_pump.wav"
 }
 
 "Weapon_Shotgun.Single"
@@ -1244,9 +1247,10 @@
 	"pitch"			"98,101"
 	"rndwave"
 	{
-	//	"wave"			"weapons/shotgun/shotgun_fire2.wav"
-	//	"wave"			"weapons/shotgun/shotgun_fire6.wav"
+		"wave"			"weapons/shotgun/shotgun_fire2.wav"
+		"wave"			"weapons/shotgun/shotgun_fire6.wav"
 		"wave"			"weapons/shotgun/shotgun_fire7.wav"
+		"wave"			"weapons/Hk_m3/m3-1.wav"
 	}
 }
 
