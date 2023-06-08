@@ -1247,7 +1247,7 @@
 	"pitch"			"98,101"
 	"rndwave"
 	{
-		"wave"			"weapons/shotgun/shotgun_fire2.wav"
+	//	"wave"			"weapons/shotgun/shotgun_fire2.wav"
 		"wave"			"weapons/shotgun/shotgun_fire6.wav"
 		"wave"			"weapons/shotgun/shotgun_fire7.wav"
 		"wave"			"weapons/Hk_m3/m3-1.wav"
