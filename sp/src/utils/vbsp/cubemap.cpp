@@ -84,8 +84,9 @@ inline bool SideHasCubemapAndWasntManuallyReferenced( int iSide )
 	return s_aCubemapSideData[iSide].bHasEnvMapInMaterial && !s_aCubemapSideData[iSide].bManuallyPickedByAnEnvCubemap;
 }
 
+char* g_pParallaxObbStrs[MAX_MAP_CUBEMAPSAMPLES];
 
-void Cubemap_InsertSample( const Vector& origin, int size )
+void Cubemap_InsertSample(const Vector& origin, int size, char* pParallaxObbStr = "")
 {
 	dcubemapsample_t *pSample = &g_CubemapSamples[g_nCubemapSamples];
 	pSample->origin[0] = ( int )origin[0];	
