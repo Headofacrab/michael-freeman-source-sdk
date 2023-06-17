@@ -45,7 +45,7 @@ void GamepadUILoading::ApplySchemeSettings( IScheme *pScheme )
 	SetPos( 0, 0 );
 
 	m_pProgressMirror->SetFgColor( Color( 255, 134, 44, 255 ) );
-	m_pSpinnerImage->SetDrawColor( Color( 255, 125, 20, 255 ) );
+	m_pSpinnerImage->SetDrawColor( Color( 255, 178, 20, 255 ) );
 
 	m_pSpinnerImage->SetImage( "../gamepadui/spinner.vmt" );
 	m_pLogoImage->SetImage( "../gamepadui/game_logo.vmt" );
