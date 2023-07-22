@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "85"
+	"mapversion" "87"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "85"
+	"mapversion" "87"
 	"classname" "worldspawn"
 	"chaptertitle" "Level 1"
 	"detailmaterial" "detail/detailsprites"
@@ -10226,6 +10226,118 @@ world
 }
 entity
 {
+	"id" "7002"
+	"classname" "prop_static"
+	"angles" "0 15 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/garbage128_composite001a.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-144 -1072 179.976"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "6998"
+	"classname" "prop_static"
+	"angles" "0 330 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/garbage128_composite001b.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-112 -944 179.976"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "6994"
+	"classname" "prop_static"
+	"angles" "0 315 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_junk/garbage_carboard001a.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-96 -1216 179.976"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "6989"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_forest/lightfixture01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "240 -680 443"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "6986"
+	"classname" "env_cubemap"
+	"sides" ""
+	"origin" "240 -680 384"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
+entity
+{
+	"id" "6980"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 239 202 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-90 0 0"
+	"pitch" "-90"
+	"origin" "240 -680 384"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "3323"
 	"classname" "path_corner"
 	"angles" "0 0 0"
@@ -10750,7 +10862,7 @@ entity
 	"id" "4741"
 	"classname" "trigger_changelevel"
 	"landmark" "landmarc"
-	"map" "sdk_vehicles_test"
+	"map" "mf_level_02"
 	"spawnflags" "0"
 	"StartDisabled" "1"
 	"targetname" "end"
@@ -12236,118 +12348,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "6980"
-	"classname" "light_spot"
-	"_cone" "45"
-	"_exponent" "1"
-	"_inner_cone" "30"
-	"_light" "255 239 202 200"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"angles" "-90 0 0"
-	"pitch" "-90"
-	"origin" "240 -680 384"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "6986"
-	"classname" "env_cubemap"
-	"sides" ""
-	"origin" "240 -680 384"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 9500]"
-	}
-}
-entity
-{
-	"id" "6989"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_forest/lightfixture01.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "240 -680 443"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "6994"
-	"classname" "prop_static"
-	"angles" "0 315 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_junk/garbage_carboard001a.mdl"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-96 -1216 179.976"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3500]"
-	}
-}
-entity
-{
-	"id" "6998"
-	"classname" "prop_static"
-	"angles" "0 330 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_junk/garbage128_composite001b.mdl"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-112 -944 179.976"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "7002"
-	"classname" "prop_static"
-	"angles" "0 15 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_junk/garbage128_composite001a.mdl"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-144 -1072 179.976"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
 	}
 }
 cameras
