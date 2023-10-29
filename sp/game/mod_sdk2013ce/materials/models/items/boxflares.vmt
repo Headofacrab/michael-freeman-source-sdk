@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "Models/Items/boxflares"
+	"$bumpmap" "Models/Items/boxflares_n"
+
+     "$phong" "1"
+     "$phongexponent" "3"
+     "$phongboost"	"1"
+     "$phongfresnelranges"	"[.6 1.2 2.6]"
+}
